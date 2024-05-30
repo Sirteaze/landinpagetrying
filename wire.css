@@ -1,0 +1,282 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.head{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 711px;
+    width: 100%;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    color: white;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.headbox{
+    /* border: 1px solid white; */
+    height: 300px;
+    width: 450px;
+    padding-left: 150px;
+    color: white;
+    margin-top: 200px;
+}
+.headbox p{
+    /* line-height: 0.5; */
+}
+.contbox1{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+}
+.bobo{
+    width: 40%;
+    height: 300px;
+    font-size: 20px;
+
+}
+.datbox{
+    display: flex;
+    gap: 40px;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+    z-index: 2;
+}
+.cont2{
+    /* margin-top: 500px; */
+}
+fieldset{
+    border-radius: 20px;
+    padding: auto 10px;
+    border: none;
+    box-shadow: 1px 1px 6px 1px rgb(209, 207, 207);
+    z-index: 3;
+    background-color: white;
+}
+legend{
+    opacity: 0.2;
+    /* position: right; */
+    /* right: 5px; */
+}
+.cont4{
+    height: 500px;
+    margin-top: 100px;
+}
+.tot{
+    padding-left: 120px;
+    line-height: 0.5;
+}
+.bobo{
+    line-height: 0.5;
+}
+th{
+    display: flex;
+    background-color: blue;
+    gap: 600px;
+    /* justify-content: space-between; */
+    padding-left: 120px;
+    padding-right: 120px;text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+
+}
+.wash p{
+    font-size: 20px;
+    padding-right: 50px;
+}
+th .wash{
+    display: flex;
+    gap: 60px;
+    font-weight: lighter;
+    /* padding-right: 40px; */
+}
+table{
+    border-collapse: collapse;
+    /* border-top-right-radius: 60px; */
+    /* border-top-left-radius: 30px; */
+}
+th h6{
+    font-size: 40px;
+    margin-top: -5px;
+    color: rgb(45, 45, 137);
+    font-weight: lighter;
+    
+}
+th p{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+th div{
+    padding-top: 10px;
+    /* align-items: center; */
+
+
+}
+.geta{
+    margin-top: -60px;
+}
+th{
+    height: 50px;
+    align-content: center;
+    padding-top: 5px;
+    font-size: 13px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.cont5{
+    /* margin-top: 250px; */
+    /* justify-content: center; */
+    align-content: center;
+    height: 800px;
+    /* height: 200px; */
+/* }
+.cont5 img{
+    width: 35%;
+    margin-top: -700px;
+    margin-left: 300px; */
+}
+.cont5 img{
+    margin-top: -800px;
+    margin-left: 300px;
+    
+}
+.getcont{
+    padding-left: 580px;
+    background-color: blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 350px;
+    /* margin-top: 400px; */
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    /* margin-top: 300px; */
+    color: white;
+    font-size: 20px;
+
+
+}
+.contactbox{
+    background-color: purple;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 15px;
+    /* align-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+footer{
+    background-color: black;
+    height: 300px;
+    align-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: -230px;
+}
+.fotb{
+    display: flex;
+    /* justify-content: flex-end; */
+    color: white;
+    justify-content: space-between;
+}
+.fot2 ul{
+    list-style: none;
+    display: block;
+}
+footer li a{
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    color: grey;
+    /* gap: 20px; */
+}
+.fot1{
+    /* border: 1px solid white; */
+    width: 500px;
+    padding-top: 20px;
+}
+.fot1 p{
+    font-size: 10px;
+    line-height: 2;
+    color: rgb(228, 228, 228);
+}
+.down{
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 120px; */
+    padding-right: 40px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.emo{
+    display: flex;
+    gap: 5px;
+}
+.copy{
+    color: grey;
+    font-size: 10px;
+}
+@media screen and (min-widt:2560px){
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        /* overflow-x: hidden;
+        width: fit-content; */
+    }
+    .contbox1{
+        display: block;
+        justify-content: space-evenly;
+        gap: 10px;
+        width: 100%;
+        /* align-content: center;justify-content: center; */
+    }
+    .bobo p{
+        width: 100%;
+    }
+    .cont2{
+        /* text-align: center; */
+        align-content: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .datbox{
+        display: block;
+        height: 600px;
+        width: 60%;
+        margin-top: -200px;
+    }
+
+}
